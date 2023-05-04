@@ -124,7 +124,8 @@ namespace FineMethod
 				p = P(x_o, y_o, r[ki]);
 				if (p <= eps)
 				{
-					Console.WriteLine("---ОТВЕТ---");
+					Console.WriteLine("---ОТВЕТ ХУЙНЯ---");
+					ki++;
 					Console.WriteLine($"x_{ki} = ({x_o};{y_o})");
 					Console.WriteLine($"P({ki}) = {p}");
 					Console.WriteLine($"F({ki}) = {fx(x_o, y_o)}");
